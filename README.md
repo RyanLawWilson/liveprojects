@@ -1,6 +1,4 @@
-# Live Projects
-
-## Introduction
+#Live Projects
 
 These are each two week sprints. Both are MVC web apps, one utilizing Python & Django and the
 other C# & Enitity. Both of them use HTML and Bootstrap 4.6 as well.
