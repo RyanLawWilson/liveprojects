@@ -32,7 +32,7 @@ public class CalendarEvent
 		public int? ProductionId { get; set; }
 	}
 ```
-![event screenshot 1](/liveprojects\csharpliveproject\event1.PNG)
+![event screenshot 1](/csharpliveproject/event1.PNG)
 
 ```c#
 @if (item.StartTime == null)
@@ -47,7 +47,7 @@ Shows how long an event is on hover.
 ```c#
 <a tabindex="0" class="prod-calendar--pop" role="button" data-toggle="popover" data-trigger="hover" data-content="This is a @((item.EndDate - @item.StartDate).Value.TotalDays) day event.">
 ```
-![event screenshot 2](/liveprojects\csharpliveproject\event2.PNG)
+![event screenshot 2](/csharpliveproject/event2.PNG)
 
 Gets the days remaining in an event thats started and says "Last Day!" on the last day of a given event.
 ```c#
@@ -99,7 +99,7 @@ Dropleft with vertical dots icon menu for editing an entry.
 						<li>@Html.ActionLink("Delete", "Delete", new { id = item.EventId })</li>
 					</ul>
 ```
-![edit menu](/liveprojects\csharpliveproject\event3.PNG)
+![edit menu](/csharpliveproject/event3.PNG)
 
 Responsive hamburger style nav menu with internal menu.
 ```html
@@ -132,4 +132,4 @@ Responsive hamburger style nav menu with internal menu.
 			</div>
 		</div> <!-- mobile nav end -->
 ```
-![mobile nav menu 1](/liveprojects\csharpliveproject\eventmenu1.PNG)   ![mobile nav menu 2](/liveprojects\csharpliveproject\eventmenu2.PNG)
+![mobile nav menu 1](/csharpliveproject/eventmenu1.PNG)   ![mobile nav menu 2](/csharpliveproject/eventmenu2.PNG)
